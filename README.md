@@ -79,7 +79,7 @@
 新建单元格，生成回答
 ```
    # Perform inference/generate a response
-   response = chatbot.predict(query="上海有哪些景点")
+   response = chatbot.predict(query="请说出以下两句话区别在哪里?1.冬天：能穿多少穿多少；2.夏天：能穿多少穿多少；")
    print(response)
    ```
 点击运行即可查看回答。可以将`response`中的`query`参数替换为其他语境下的问题。
